@@ -1,3 +1,3 @@
 #!/usr/bin/env zsh
 cd
-ln -s ~/.zsh/.zshrc
+ln -s ~/.zsh_local/.zshrc
