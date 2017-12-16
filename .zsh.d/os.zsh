@@ -1,5 +1,6 @@
 case ${OSTYPE} in
   linux*)
+    alias ncpu='cat /proc/cpuinfo | grep processor | wc -l'
     export PATH="$HOME/.rbenv/bin:$PATH"
     eval "$(rbenv init -)"
     export PYENV_ROOT="$HOME/.pyenv"
