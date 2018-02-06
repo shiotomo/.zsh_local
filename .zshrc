@@ -1,3 +1,5 @@
+#=== zshrc ====
+
 bindkey -e
 bindkey "^I" menu-complete
 
